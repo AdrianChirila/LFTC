@@ -1,0 +1,23 @@
+q1 q2 q3 q4 q5 q6 q7 q8
+1 2 2 2 2 2 2 2
+20
+q1 q2 a..z
+q1 q2 A..Z
+q2 q3 a...z
+q2 q3 A...Z
+q2 q3 0...9
+q3 q4 a...z
+q3 q4 A...Z
+q3 q4 0...9
+q4 q5 a...z
+q4 q5 A...Z
+q4 q5 0...9
+q5 q6 a...z
+q5 q6 A...Z
+q5 q6 0...9
+q6 q7 a...z
+q6 q7 A...Z
+q6 q7 0...9
+q7 q8 a...z
+q7 q8 A...Z
+q7 q8 0...9

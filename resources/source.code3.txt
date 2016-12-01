@@ -1,0 +1,11 @@
+var r , a , b : int;
+{
+    citeste a , b;
+    cattimp ( b > 0 )
+    {
+        r = a % b;
+        a = b;
+        b = r;
+    }
+    tipareste a;
+}

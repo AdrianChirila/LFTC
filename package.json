@@ -1,0 +1,21 @@
+{
+  "name": "iw-fhir-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon ./build/index.js",
+    "build": "tsc -w",
+    "buildonce": "tsc",
+    "test": "./node_modules/.bin/mocha --timeout 15000--harmony --reporter spec --require should ./build/spec/default.config.spec.js  | bunyan -o short"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.74.0",
+    "automative": "file:../lab2Node"
+  },
+  "devDependencies": {
+    "bluebird": "^3.4.1"
+  }
+}

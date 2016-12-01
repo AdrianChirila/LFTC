@@ -1,0 +1,21 @@
+### WebStorm ###
+.idea
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Compiled files
+build
+
+# Dependency directories
+node_modules
+
+### MongoDB ###
+app/database
+
+### Typings ###
+## Ignore downloaded typings
+typings
